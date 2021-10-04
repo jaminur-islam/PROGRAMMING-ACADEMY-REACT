@@ -4,11 +4,11 @@ import { Container, Form } from "react-bootstrap";
 
 const Contact = () => {
   return (
-    <div>
-      <h1> contact us </h1> 
+    <div style={{background:'#131511' , color: 'white' ,padding: '1px'}}>
+          <h2 className='text-center text-uppercase mt-5 text-primary'> Contact Us</h2>
+          <hr className='w-50 mx-auto text-primary bold'/>
 
-   
-    <Container className='bg-danger'>
+    <Container>
      <Form className='mt-5' >
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>

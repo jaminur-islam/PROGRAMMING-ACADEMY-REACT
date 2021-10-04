@@ -46,7 +46,7 @@ const Header = () => {
                 className="nav-btn"
                 to="/about"
               >
-                About
+                About 
               </NavLink>
               <NavLink
                 activeStyle={{
