@@ -1,10 +1,10 @@
 /* Footer design */
 footer {
   position: sticky;
-  top: 0
+  top: 0;
 }
 /* About ui */
-.about-ui{
+.about-ui {
   width: 80%;
   text-align: start;
 }
@@ -16,7 +16,7 @@ footer {
   display: inline-block;
   margin-left: 15px;
   background: rgb(132, 161, 255);
-  padding:0px 8px;
+  padding: 0px 8px;
   border-radius: 10px;
   color: rgb(13, 43, 177);
 }
@@ -43,7 +43,7 @@ footer {
   color: rgb(206, 197, 197);
 }
 
-.contact-ui   a:hover {
+.contact-ui a:hover {
   color: blue;
   text-decoration: underline;
 }

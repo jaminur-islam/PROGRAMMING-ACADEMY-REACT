@@ -11,14 +11,18 @@ const Services = () => {
   }, []);
 
   return (
-    <Container>    
-      <h2 className='text-center text-uppercase mt-5 text-primary'>ALL OUR COURSES AND SERVICES</h2>
-          <hr className='w-50 mx-auto text-primary bold'/>
-    <Row>
-      {
-       services.map(service => <Service key={service.id} service={service}> </Service>) 
-      }
-    </Row>
+    <Container>
+      <h2 className="text-center text-uppercase mt-5 text-primary">
+        ALL OUR COURSES AND SERVICES
+      </h2>
+      <hr className="w-50 mx-auto text-primary bold" />
+      <Row>
+        {services.map((service) => (
+          <Service key={service.id} service={service}>
+            {" "}
+          </Service>
+        ))}
+      </Row>
     </Container>
   );
 };

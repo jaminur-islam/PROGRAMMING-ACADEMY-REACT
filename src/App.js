@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Headar/Header";
 import Home from "./components/Home/Home";
@@ -45,7 +40,7 @@ function App() {
         </Route>
 
         <Route exact path="*">
-           <NotFound> </NotFound>
+          <NotFound> </NotFound>
         </Route>
       </Switch>
       <Footer> </Footer>

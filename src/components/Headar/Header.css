@@ -55,21 +55,20 @@ activeStyle {
   background-color: none;
 }
 
- /* ShowCourses Design */
- .card-img {
-   height: 250px;
- }
+/* ShowCourses Design */
+.card-img {
+  height: 250px;
+}
 
- .card {
-   box-shadow: 2px 2px 4px rgb(151, 142, 142);
- }
+.card {
+  box-shadow: 2px 2px 4px rgb(151, 142, 142);
+}
 
- .emty {
-   font-size: 20px;
-   color:rgb(151, 142, 142);
- }
- .full {
+.emty {
+  font-size: 20px;
+  color: rgb(151, 142, 142);
+}
+.full {
   font-size: 20px;
   color: rgb(241, 159, 6);
-
- }
+}

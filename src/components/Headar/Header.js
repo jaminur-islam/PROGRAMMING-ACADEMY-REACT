@@ -4,7 +4,6 @@ import { NavLink, useHistory } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
-  
   const history = useHistory();
   const gotoBtn = (link) => {
     history.push(link);
@@ -13,7 +12,7 @@ const Header = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" className="navbar" variant="dark">
         <Container>
-          <Navbar.Brand onClick={()=>gotoBtn('/home')} className="logo" >
+          <Navbar.Brand onClick={() => gotoBtn("/home")} className="logo">
             Programming Academy
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -47,7 +46,7 @@ const Header = () => {
                 className="nav-btn"
                 to="/about"
               >
-                About 
+                About
               </NavLink>
               <NavLink
                 activeStyle={{
