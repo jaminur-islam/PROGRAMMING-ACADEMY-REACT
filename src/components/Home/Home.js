@@ -24,7 +24,7 @@ const Home = () => {
       <Container> 
         <section>
          
-          <h2 className='text-center text-uppercase mt-5 text-primary'> All our courses and services </h2>
+          <h2 className='text-center text-uppercase mt-5 text-primary'> All Our Courses And Services </h2>
           <hr className='w-50 mx-auto text-primary bold'/>
           <Row>
           {
