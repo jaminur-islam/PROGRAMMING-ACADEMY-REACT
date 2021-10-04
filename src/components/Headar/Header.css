@@ -1,0 +1,75 @@
+/* Header Desing */
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  background: #2494a0;
+  padding: 10px 0;
+}
+.nav-btn {
+  margin-left: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 3px 8px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.nav-btn:hover {
+  background-color: rgba(218, 213, 213, 0.664);
+}
+
+.nav-btn2 a {
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.nav-btn2 a:hover {
+  background-color: rgba(235, 231, 231, 0.555);
+  width: 75%;
+}
+
+.logo {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -5;
+  word-spacing: 2px;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #2494a0 !important;
+  border: none;
+}
+
+activeStyle {
+  color: rgb(17, 14, 14);
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: none;
+}
+
+ /* ShowCourses Design */
+ .card-img {
+   height: 250px;
+ }
+
+ .card {
+   box-shadow: 2px 2px 4px rgb(151, 142, 142);
+ }
+
+ .emty {
+   font-size: 20px;
+   color:rgb(151, 142, 142);
+ }
+ .full {
+  font-size: 20px;
+  color: rgb(241, 159, 6);
+
+ }

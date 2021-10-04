@@ -1,0 +1,49 @@
+/* Footer design */
+footer {
+  position: sticky;
+  top: 0
+}
+/* About ui */
+.about-ui{
+  width: 80%;
+  text-align: start;
+}
+
+.about-ui li {
+  text-align: start;
+  list-style: none;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: 15px;
+  background: rgb(132, 161, 255);
+  padding:0px 8px;
+  border-radius: 10px;
+  color: rgb(13, 43, 177);
+}
+
+/* Quick link */
+.quick-link {
+  text-align: center;
+}
+.quick-link a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(206, 197, 197);
+}
+.quick-link a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* contact ui */
+.contact-ui a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(206, 197, 197);
+}
+
+.contact-ui   a:hover {
+  color: blue;
+  text-decoration: underline;
+}

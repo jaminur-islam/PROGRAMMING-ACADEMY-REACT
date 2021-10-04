@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Javascript Developer Course",
-    "img": "https://ibb.co/9Nbc19Z",
+    "img": "https://i.ibb.co/7XnjZJk/Javascript-developer.png",
     "description": "By taking this course you can become a good quality JavaScript developer. And of course if you can do well, we will help you get a job",
     "price": 420,
     "rate": 4.5,
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Python Developer Course",
-    "img": "https://ibb.co/KFyBhrj",
+    "img": "https://i.ibb.co/V2Bb9qW/python-developer-scrapper-django.jpg",
     "description": "By doing this course you will become a great Python developer. And of course if you can do well, we will help you get a job.",
     "price": 450,
     "rate": 4.6,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "React Developer Course",
-    "img": "https://ibb.co/bN83WfS",
+    "img": "https://i.ibb.co/wpxL0v9/React-developer.png",
     "description": "By taking this course you can become a good quality react developer. And of course if you can do well, we will help you get a job.",
     "price": 400,
     "rate": 4.7,
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Web Designer Course",
-    "img": "https://ibb.co/qjJcZNd",
+    "img": "https://i.ibb.co/1QzPSrL/web-desing.jpg",
     "description": "By doing this course you will become a great web designer. This course covers everything you need to be a perfect web designer",
     "price": 400,
     "rate": 4.7,
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": " C++ Developer Course",
-    "img": "https://ibb.co/56PXbNL",
+    "img": "https://i.ibb.co/KXJcTMW/c-Developer.png",
     "description": "By taking this course you can become a good quality C++ developer. And of course if you can do well, we will help you get a job",
     "price": 410,
     "rate": 3.7,
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Java Developer Course",
-    "img": "https://ibb.co/rtqhrGw",
+    "img": "https://i.ibb.co/qnh8QMr/Javadeveloper.jpg",
     "description": "By doing this course you will become a great Java developer. This course covers everything you need to be a perfect web designer",
     "price": 310,
     "rate": 2.7,
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": " Angular Developer Course",
-    "img": "https://ibb.co/gP15yQr",
+    "img": "https://i.ibb.co/7RcwvBS/Hire-Angular-Js-Developer-1.jpg",
     "description": "By taking this course you can become a good quality web developer. And of course if you can do well, we will help you get a job",
     "price": 410,
     "rate": 4.5,
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": " Vue Developer Course",
-    "img": "https://ibb.co/5cThhCV",
+    "img": "https://i.ibb.co/Hg7TTRQ/vue-developer.png",
     "description": "By taking this course you can become a good quality web developer. And of course if you can do well, we will help you get a job",
     "price": 310,
     "rate": 5,
@@ -74,10 +74,19 @@
   {
     "id": 9,
     "title": " Vue Developer Course",
-    "img": "https://ibb.co/hCQwTnH",
+    "img": "https://i.ibb.co/d7CxH36/Php.jpg",
     "description": "By taking this course you can become a good quality PHP developer. And of course if you can do well, we will help you get a job",
     "price": 410,
     "rate": 4,
+    "Category": "Programming"
+  },
+  {
+    "id": 1,
+    "title": "Javascript Developer Course",
+    "img": "https://i.ibb.co/7XnjZJk/Javascript-developer.png",
+    "description": "By taking this course you can become a good quality JavaScript developer. And of course if you can do well, we will help you get a job",
+    "price": 420,
+    "rate": 4.5,
     "Category": "Programming"
   }
 ]
