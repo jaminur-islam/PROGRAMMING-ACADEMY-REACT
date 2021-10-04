@@ -70,7 +70,7 @@ const Footer = () => {
     </div>
   </div>
   <div className="footer-copyright text-center py-3">© 2020 Copyright:
-    <a style={{color:'blue'}} href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a style={{color:'blue'}} href="https://web.programming-hero.com/dashboard">Propramming Academy </a>
   </div>
 </footer>
   );
