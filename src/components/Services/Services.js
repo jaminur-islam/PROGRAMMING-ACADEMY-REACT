@@ -12,7 +12,7 @@ const Services = () => {
 
   return (
     <Container>    
-      <h2 className='text-center text-uppercase mt-5 text-primary'> Our All Services </h2>
+      <h2 className='text-center text-uppercase mt-5 text-primary'>ALL OUR COURSES AND SERVICES</h2>
           <hr className='w-50 mx-auto text-primary bold'/>
     <Row>
       {
