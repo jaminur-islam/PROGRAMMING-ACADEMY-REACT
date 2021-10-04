@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  useHistory,
+  
 } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Headar/Header";
@@ -12,9 +12,9 @@ import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
+import Buy from "./components/buy/Buy";
 
 function App() {
-  const le = useHistory();
   return (
     <Router>
       <Header> </Header>
@@ -26,6 +26,10 @@ function App() {
 
         <Route exact path="/">
           <Home> </Home>
+        </Route>
+
+        <Route path="/buy">
+          <Buy> </Buy>
         </Route>
 
         <Route path="/services">

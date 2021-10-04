@@ -2,8 +2,13 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
+import { useHistory } from 'react-router';
 
 const ShowCourse = (props) => {
+  const history = useHistory();
+  const added = (his) =>{
+     history.push(his)
+  }
   const {title  , price , rate , description , img} = props.course || {};
   return (
     <Col md={6}>
@@ -26,7 +31,7 @@ const ShowCourse = (props) => {
         <h3 > Price : ${price}</h3>
 
         </div>
-      <button className='btn btn-primary fs-4'>
+      <button onClick={()=> added('/buy')} className='btn btn-primary fs-4'>
       Buy the course </button>
       </Card>
       </div>
